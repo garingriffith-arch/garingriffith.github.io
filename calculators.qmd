@@ -1,42 +1,76 @@
-project:
-  type: website
-  output-dir: _site
+---
+title: "Predictive Calculators"
+toc: false
+---
 
-website:
-  title: "Gendreau Lab"
-  site-url: "https://garingriffith-arch.github.io/garingriffith.github.io/"
-  description: "Research, publications, and web-based predictive calculators from the Gendreau Lab."
-  navbar:
-    left:
-      - text: "Home"
-        href: index.qmd
-      - text: "Calculators"
-        href: calculators.qmd
-      - text: "Publications"
-        href: publications.qmd
-      - text: "Projects"
-        href: projects.qmd
-      - text: "Team"
-        href: team.qmd
-      - text: "Resources"
-        href: resources.qmd
-      - text: "Contact"
-        href: contact.qmd
-    right:
-      - icon: github
-        href: https://github.com/garingriffith-arch/garingriffith.github.io
-        aria-label: GitHub repository
-  page-footer:
-    left: "© Gendreau Lab"
-    right: "Built with Quarto"
-  search: true
+This page lists web-based calculators developed by the lab. Each entry links to the live calculator and may include a short description or publication link.
 
-format:
-  html:
-    theme:
-      light: flatly
-      dark: darkly
-    css: styles.css
-    toc: true
-    smooth-scroll: true
-    link-external-newwindow: true
+::: {.callout-note}
+## How to add a calculator
+
+Edit `data/calculators.json` in GitHub. Add a new item with at least a `title` and `url`. The calculator will automatically appear on this page after the site redeploys.
+:::
+
+```json
+{
+  "title": "New Calculator Title",
+  "url": "https://link-to-calculator.com"
+}
+```
+
+<div id="calculator-list" class="calculator-grid" aria-live="polite">Loading calculators...</div>
+
+## Standard disclaimer
+
+These tools are intended for research and educational purposes only. Predictions are estimates derived from retrospective datasets and may not generalize to every patient, institution, or clinical scenario. They should not replace clinician judgment, multidisciplinary discussion, or individualized patient counseling.
+
+<script>
+function escapeHTML(value) {
+  return String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
+function calculatorCard(item) {
+  const title = escapeHTML(item.title || "Untitled calculator");
+  const url = escapeHTML(item.url || "#");
+  const description = item.description ? `<p>${escapeHTML(item.description)}</p>` : "";
+  const status = item.status ? `<p class="calculator-meta"><strong>Status:</strong> ${escapeHTML(item.status)}</p>` : "";
+  const publication = item.publication ? `<a class="btn btn-outline-secondary" href="${escapeHTML(item.publication)}">Publication</a>` : "";
+  const disabledClass = item.url ? "" : " disabled";
+
+  return `
+    <article class="tool-card calculator-card">
+      <h3>${title}</h3>
+      ${description}
+      ${status}
+      <div class="card-actions">
+        <a class="btn btn-primary${disabledClass}" href="${url}">Launch calculator</a>
+        ${publication}
+      </div>
+    </article>
+  `;
+}
+
+async function loadCalculators() {
+  const container = document.getElementById("calculator-list");
+  try {
+    const response = await fetch("data/calculators.json", { cache: "no-store" });
+    if (!response.ok) throw new Error(`Could not load data/calculators.json (${response.status})`);
+    const calculators = await response.json();
+    if (!Array.isArray(calculators) || calculators.length === 0) {
+      container.innerHTML = `<p>No calculators have been added yet.</p>`;
+      return;
+    }
+    container.innerHTML = calculators.map(calculatorCard).join("");
+  } catch (error) {
+    container.innerHTML = `<div class="callout-warning"><p>Calculator list could not be loaded. Check that <code>data/calculators.json</code> exists and contains valid JSON.</p></div>`;
+    console.error(error);
+  }
+}
+
+loadCalculators();
+</script>
