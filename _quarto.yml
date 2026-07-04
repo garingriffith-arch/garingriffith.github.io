@@ -5,27 +5,15 @@ project:
 website:
   title: "Gendreau Lab"
   site-url: "https://garingriffith-arch.github.io/garingriffith.github.io/"
-  description: "Research, publications, and web-based predictive calculators from the Gendreau Lab."
+  description: "A home for web-based predictive calculators from the Gendreau Lab."
   navbar:
     left:
       - text: "Home"
         href: index.qmd
       - text: "Calculators"
         href: calculators.qmd
-      - text: "Publications"
-        href: publications.qmd
-      - text: "Projects"
-        href: projects.qmd
       - text: "Contact"
         href: contact.qmd
-    right:
-      - icon: github
-        href: https://github.com/JulianGendreau
-        aria-label: Julian Gendreau on GitHub
-      - text: X
-        href: https://x.com/JulianGendreau
-      - text: ResearchGate
-        href: https://www.researchgate.net/profile/Julian-Gendreau
   page-footer:
     left: "© Gendreau Lab"
     right: "Built with Quarto"
