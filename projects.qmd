@@ -1,65 +1,23 @@
 ---
-title: "Gendreau Lab Research Hub"
-subtitle: "Neurosurgical outcomes research, predictive modeling, and web-based calculators"
+title: "Projects"
 ---
 
-::: {.hero-banner}
-## Translating registry-scale data into usable neurosurgical research tools
+The lab develops research projects focused on neurosurgical outcomes, prediction models, web-based calculators, and reproducible research workflows.
 
-The Gendreau Lab develops neurosurgical outcomes research, clinical prediction models, and web-based calculators using national registry and institutional data sources, including NCDB, ACS TQIP, SEER, TriNetX, and local clinical datasets.
+## Active project areas
 
-[View calculators](calculators.qmd){.btn .btn-primary} [View publications](publications.qmd){.btn .btn-secondary}
-:::
+### Web-based predictive calculators
 
-## Featured tools
+Interactive calculators are developed when a model can be translated into a usable public-facing research tool.
 
-::: {.grid}
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-::: {.tool-card}
-### Intracranial Chordoma Survival Calculator
+### Outcomes research
 
-**Dataset:** National Cancer Database  
-**Outcome:** Overall survival  
-**Status:** Available
+Projects use national registry and institutional data sources to study patterns of care, survival, disparities, and utilization.
 
-[Launch calculator](https://garingriffith-chordoma-survival-calculator.share.connect.posit.cloud){.btn .btn-primary}
-:::
-:::
+### Clinical informatics
 
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-::: {.tool-card}
-### TBI Discharge & Resource Utilization Calculator
+Projects explore scalable workflows for structured variable extraction, documentation, and reproducible analysis.
 
-**Dataset:** ACS TQIP 2020–2024  
-**Outcomes:** Discharge disposition, ICU admission, mechanical ventilation, and prolonged resource utilization  
-**Status:** In development
+### Perioperative and quality improvement work
 
-[View details](calculators.qmd#tbi-discharge-and-resource-utilization-calculator){.btn .btn-secondary}
-:::
-:::
-
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
-::: {.tool-card}
-### Glioblastoma Survival Calculator
-
-**Dataset:** National Cancer Database  
-**Outcome:** Overall survival  
-**Status:** In development
-
-[View details](calculators.qmd#glioblastoma-survival-calculator){.btn .btn-secondary}
-:::
-:::
-:::
-
-## Research focus areas
-
-- Neuro-oncology outcomes and survival prediction
-- Traumatic brain injury prognosis and resource utilization
-- Registry-based neurosurgical epidemiology
-- Clinical informatics and model-assisted abstraction
-- Web-based research calculators and decision-support prototypes
-- Vascular and perioperative outcomes research
-
-## Disclaimer
-
-The calculators and materials on this site are intended for research and educational use. They are not medical devices and are not a substitute for professional medical judgment, multidisciplinary discussion, or individualized patient counseling.
+Projects evaluate care processes, outcomes, and opportunities for quality improvement.
