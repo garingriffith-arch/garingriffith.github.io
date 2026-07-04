@@ -1,0 +1,26 @@
+---
+title: "Resources"
+---
+
+## Code and repositories
+
+Add public GitHub repositories here. Do not upload restricted datasets such as NCDB, TQIP, SEER restricted-use files, or institutional patient-level data.
+
+- Lab GitHub: <https://github.com/your-lab>
+- Calculator repositories: add links as appropriate
+
+## Data-use reminder
+
+National registry datasets often have data-use restrictions. Public repositories should include only app code, model objects that are allowed to be shared, documentation, and non-sensitive derived materials that comply with each data-use agreement.
+
+## App deployment checklist
+
+For each Shiny app repository, include:
+
+- `app.R`
+- `manifest.json`
+- `README.md`
+- `www/` assets, if needed
+- `data/` model objects, only if shareable
+- Clear disclaimer
+- Citation to the manuscript or preprint

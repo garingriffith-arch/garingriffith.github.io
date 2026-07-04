@@ -1,0 +1,42 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Gendreau Lab"
+  site-url: "https://example.org"
+  description: "Research, publications, and web-based predictive calculators from the Gendreau Lab."
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Calculators"
+        href: calculators.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "Team"
+        href: team.qmd
+      - text: "Resources"
+        href: resources.qmd
+      - text: "Contact"
+        href: contact.qmd
+    right:
+      - icon: github
+        href: https://github.com/your-lab
+        aria-label: GitHub
+  page-footer:
+    left: "© Gendreau Lab"
+    right: "Built with Quarto"
+  search: true
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
+    smooth-scroll: true
+    link-external-newwindow: true
