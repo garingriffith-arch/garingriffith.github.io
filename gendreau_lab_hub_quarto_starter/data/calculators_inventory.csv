@@ -1,0 +1,7 @@
+name,status,dataset,outcome,app_url,publication_url,notes
+Intracranial Chordoma Survival Calculator,Deployed,NCDB,Overall survival,https://garingriffith-chordoma-survival-calculator.share.connect.posit.cloud,,Published/deployed calculator; add DOI/PubMed when available
+Grade II-III Intracranial Meningioma Survival Estimator,Add link,NCDB,Overall survival,,,Add live app URL and manuscript citation
+TBI Discharge and Resource Utilization Calculator,Add link,ACS TQIP 2020-2024,"Discharge disposition; ICU admission; mechanical ventilation; prolonged LOS",,,Add live app URL and manuscript citation
+Glioblastoma Survival Calculator,In development,NCDB,Overall survival,,,Add live app URL and manuscript citation
+Oligodendroglioma Survival Calculator,In development,NCDB,Overall survival,,,Add live app URL and manuscript citation
+Astrocytoma Survival Calculator,In development,NCDB,Overall survival,,,Add live app URL and manuscript citation

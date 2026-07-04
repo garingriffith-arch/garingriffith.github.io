@@ -1,0 +1,40 @@
+---
+title: "Team"
+---
+
+## Principal investigator
+
+::: {.team-member}
+### Julian Gendreau, MD
+
+Department of Neurological Surgery, Oregon Health & Science University  
+*Add title, clinical interests, and lab role.*
+:::
+
+## Researchers and collaborators
+
+::: {.team-member}
+### Garin Griffith
+
+Medical student, OHSU School of Medicine  
+Research interests: neurosurgical outcomes, predictive modeling, registry-based research, clinical informatics.
+:::
+
+::: {.team-member}
+### Add collaborator name
+
+Role, affiliation, project area.
+:::
+
+## Add team members
+
+Use this format:
+
+```markdown
+::: {.team-member}
+### Name, degree
+
+Role, affiliation  
+Research interests or project role.
+:::
+```
