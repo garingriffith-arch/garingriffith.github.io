@@ -26,3 +26,12 @@
 .navbar-title {
   font-weight: 700;
 }
+
+/* Keep cards readable in the dark theme. */
+.quarto-dark .hero-banner,
+.quarto-dark .tool-card,
+.quarto-dark .publication,
+.quarto-dark .team-member {
+  background: #1f2933;
+  border-color: #3b4856;
+}

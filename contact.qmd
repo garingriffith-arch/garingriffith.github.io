@@ -2,9 +2,9 @@
 title: "Predictive Calculators"
 ---
 
-This page links to web-based calculators developed by the lab. Each calculator should include its dataset, outcome, publication link, model inputs, and clinical disclaimer.
+This page links to web-based calculators developed by the lab. Each calculator should include the dataset, modeled outcome, model inputs, publication link, and a clear research-use disclaimer.
 
-## Published / deployed tools
+## Available tools
 
 ::: {.tool-card}
 ### Intracranial Chordoma Survival Calculator
@@ -12,23 +12,21 @@ This page links to web-based calculators developed by the lab. Each calculator s
 **Purpose:** Estimates survival after diagnosis of intracranial chordoma using diagnosis-time variables.  
 **Dataset:** National Cancer Database  
 **Model type:** Cox proportional hazards model with internal validation  
-**Inputs:** Age, sex, race, Hispanic ethnicity, insurance, income quartile, Charlson-Deyo comorbidity score, tumor size  
-**Status:** Deployed
+**Inputs:** Age, sex, race, Hispanic ethnicity, insurance status, income quartile, Charlson-Deyo comorbidity score, and tumor size  
+**Status:** Available
 
 [Launch calculator](https://garingriffith-chordoma-survival-calculator.share.connect.posit.cloud){.btn .btn-primary}
-[Add manuscript link](publications.qmd){.btn .btn-secondary}
+[Publication link pending](publications.qmd){.btn .btn-secondary}
 :::
 
-## Tools to add
+## In development / to be added
 
 ::: {.tool-card}
 ### Grade II–III Intracranial Meningioma Survival Estimator
 
 **Dataset:** National Cancer Database  
 **Outcome:** Overall survival  
-**Status:** Add live calculator link, manuscript citation, and model details
-
-[Add calculator link](#){.btn .btn-secondary}
+**Status:** Calculator and finalized citation to be added
 :::
 
 ::: {.tool-card}
@@ -36,10 +34,8 @@ This page links to web-based calculators developed by the lab. Each calculator s
 
 **Purpose:** Predicts discharge disposition and hospital resource utilization for adult traumatic brain injury patients.  
 **Dataset:** ACS TQIP 2020–2024  
-**Outcomes:** Discharge disposition, ICU admission, mechanical ventilation, hospital LOS ≥20 days, ICU LOS ≥8 days, ventilator duration ≥8 days  
-**Status:** Add live calculator link and manuscript citation
-
-[Add calculator link](#){.btn .btn-secondary}
+**Outcomes:** Discharge disposition, ICU admission, mechanical ventilation, hospital length of stay ≥20 days, ICU length of stay ≥8 days, and ventilator duration ≥8 days  
+**Status:** Calculator and finalized citation to be added
 :::
 
 ::: {.tool-card}
@@ -47,9 +43,7 @@ This page links to web-based calculators developed by the lab. Each calculator s
 
 **Dataset:** National Cancer Database  
 **Outcome:** Overall survival at clinically relevant timepoints  
-**Status:** Add live calculator link and manuscript citation
-
-[Add calculator link](#){.btn .btn-secondary}
+**Status:** Calculator and finalized citation to be added
 :::
 
 ::: {.tool-card}
@@ -57,9 +51,7 @@ This page links to web-based calculators developed by the lab. Each calculator s
 
 **Dataset:** National Cancer Database  
 **Outcome:** Overall survival  
-**Status:** Add live calculator link and manuscript citation
-
-[Add calculator link](#){.btn .btn-secondary}
+**Status:** Calculator and finalized citation to be added
 :::
 
 ::: {.tool-card}
@@ -67,9 +59,7 @@ This page links to web-based calculators developed by the lab. Each calculator s
 
 **Dataset:** National Cancer Database  
 **Outcome:** Overall survival  
-**Status:** Add live calculator link and manuscript citation
-
-[Add calculator link](#){.btn .btn-secondary}
+**Status:** Calculator and finalized citation to be added
 :::
 
 ## Standard disclaimer

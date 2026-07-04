@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Gendreau Lab"
-  site-url: "https://example.org"
+  site-url: "https://garingriffith-arch.github.io/garingriffith.github.io/"
   description: "Research, publications, and web-based predictive calculators from the Gendreau Lab."
   navbar:
     left:
@@ -24,8 +24,8 @@ website:
         href: contact.qmd
     right:
       - icon: github
-        href: https://github.com/your-lab
-        aria-label: GitHub
+        href: https://github.com/garingriffith-arch/garingriffith.github.io
+        aria-label: GitHub repository
   page-footer:
     left: "© Gendreau Lab"
     right: "Built with Quarto"

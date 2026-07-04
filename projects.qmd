@@ -1,26 +1,26 @@
 ---
 title: "Gendreau Lab Research Hub"
-subtitle: "Predictive modeling, clinical outcomes research, and web-based neurosurgical calculators"
+subtitle: "Neurosurgical outcomes research, predictive modeling, and web-based calculators"
 ---
 
 ::: {.hero-banner}
-## Translating registry-scale data into usable clinical research tools
+## Translating registry-scale data into usable neurosurgical research tools
 
-The Gendreau Lab develops neurosurgical outcomes research, predictive models, and web-based calculators using national datasets including NCDB, ACS TQIP, SEER, and institutional data sources.
+The Gendreau Lab develops neurosurgical outcomes research, clinical prediction models, and web-based calculators using national registry and institutional data sources, including NCDB, ACS TQIP, SEER, TriNetX, and local clinical datasets.
 
 [View calculators](calculators.qmd){.btn .btn-primary} [View publications](publications.qmd){.btn .btn-secondary}
 :::
 
-## Featured calculators
+## Featured tools
 
 ::: {.grid}
 ::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
 ::: {.tool-card}
 ### Intracranial Chordoma Survival Calculator
 
-**Dataset:** NCDB  
+**Dataset:** National Cancer Database  
 **Outcome:** Overall survival  
-**Status:** Published / deployed
+**Status:** Available
 
 [Launch calculator](https://garingriffith-chordoma-survival-calculator.share.connect.posit.cloud){.btn .btn-primary}
 :::
@@ -31,9 +31,10 @@ The Gendreau Lab develops neurosurgical outcomes research, predictive models, an
 ### TBI Discharge & Resource Utilization Calculator
 
 **Dataset:** ACS TQIP 2020–2024  
-**Outcomes:** Discharge disposition, ICU admission, mechanical ventilation, prolonged LOS
+**Outcomes:** Discharge disposition, ICU admission, mechanical ventilation, and prolonged resource utilization  
+**Status:** In development
 
-[Add calculator link](calculators.qmd){.btn .btn-secondary}
+[View details](calculators.qmd#tbi-discharge-and-resource-utilization-calculator){.btn .btn-secondary}
 :::
 :::
 
@@ -41,23 +42,24 @@ The Gendreau Lab develops neurosurgical outcomes research, predictive models, an
 ::: {.tool-card}
 ### Glioblastoma Survival Calculator
 
-**Dataset:** NCDB  
+**Dataset:** National Cancer Database  
 **Outcome:** Overall survival  
-**Status:** In development / deployment
+**Status:** In development
 
-[Add calculator link](calculators.qmd){.btn .btn-secondary}
+[View details](calculators.qmd#glioblastoma-survival-calculator){.btn .btn-secondary}
 :::
 :::
 :::
 
-## Research areas
+## Research focus areas
 
 - Neuro-oncology outcomes and survival prediction
 - Traumatic brain injury prognosis and resource utilization
 - Registry-based neurosurgical epidemiology
-- Clinical informatics and web-based decision-support tools
+- Clinical informatics and model-assisted abstraction
+- Web-based research calculators and decision-support prototypes
 - Vascular and perioperative outcomes research
 
 ## Disclaimer
 
-The calculators and materials on this site are intended for research and educational use. They are not a substitute for professional medical judgment and should not be used as the sole basis for clinical decision-making.
+The calculators and materials on this site are intended for research and educational use. They are not medical devices and are not a substitute for professional medical judgment, multidisciplinary discussion, or individualized patient counseling.

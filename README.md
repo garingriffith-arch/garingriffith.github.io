@@ -2,47 +2,46 @@
 title: "Publications"
 ---
 
-Add peer-reviewed publications, preprints, conference abstracts, and manuscripts in preparation.
+This page is intended to list peer-reviewed publications, conference abstracts, preprints, and selected manuscripts once citations are finalized.
 
-## Predictive calculators
+## Predictive calculators and web-based tools
 
 ::: {.publication}
 **Intracranial Chordoma Predictive Calculator**  
-Garin Griffith, Jesse Rosenberg, Blake Tellinghusen, Saarang Patel, Julian Gendreau, Hazem S. Ghaith, Ahmed Raslan.  
-*Status:* Add journal, year, DOI/PubMed link.
+*Status:* Add finalized journal citation, DOI, PubMed link, and calculator link.
 :::
 
 ::: {.publication}
 **Grade II–III Intracranial Meningioma Survival Estimator**  
-*Status:* Add citation and calculator link.
+*Status:* Add finalized citation and calculator link.
 :::
 
 ::: {.publication}
 **Traumatic Brain Injury Discharge and Resource Utilization Calculator**  
-*Status:* Add citation and calculator link.
+*Status:* Add finalized citation and calculator link.
 :::
 
-## Neuro-oncology
+## Neuro-oncology outcomes
 
 - Glioblastoma treatment timeliness and disparities
 - Elderly acoustic schwannoma surgery and survival
 - Very elderly plasmacytoma treatment patterns and survival
 - Elderly chordoma treatment outcomes
 
-## Trauma / TQIP
+## Trauma / ACS TQIP
 
 - TBI discharge disposition and resource utilization prediction
 - VTE prophylaxis timing after neurotrauma
 - Anticoagulation-associated neurotrauma outcomes
 
-## Vascular / perioperative outcomes
+## Vascular and perioperative outcomes
 
 - Genetic aortopathy femoral access outcomes
 - VEDS femoral artery access manuscript
 
-## How to update this page
+## Citation template
 
-Use this format for each paper:
+Use this format for finalized entries:
 
 ```markdown
 ::: {.publication}

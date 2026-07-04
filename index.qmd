@@ -2,12 +2,12 @@
 title: "Contact"
 ---
 
-For collaboration inquiries, add the preferred lab contact email or institutional profile link.
+For collaboration inquiries, add the preferred lab contact email, institutional profile link, or department contact page.
 
 ## Collaboration inquiries
 
-- Principal investigator: add institutional email or profile
-- Research coordinator/contact: add contact
+- Principal investigator: add institutional profile or email
+- Research contact: add contact information if the lab wants a central contact
 
 ## Location
 
