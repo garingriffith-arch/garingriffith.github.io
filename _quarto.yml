@@ -1,9 +1,29 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
-.DS_Store
-_site/
-_freeze/
-.cache/
-*.Rproj
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Gendreau Lab"
+  site-url: "https://www.gendreaulab.com"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: calculators.qmd
+        text: Calculators
+      - href: publications.qmd
+        text: Publications
+      - href: projects.qmd
+        text: Projects
+      - href: team.qmd
+        text: Team
+      - href: resources.qmd
+        text: Resources
+      - href: contact.qmd
+        text: Contact
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
