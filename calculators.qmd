@@ -26,6 +26,8 @@ function calculatorCard(item) {
   const url = escapeHTML(item.url || "#");
   const description = item.description ? `<p>${escapeHTML(item.description)}</p>` : "";
   const status = item.status ? `<p class="calculator-meta"><strong>Status:</strong> ${escapeHTML(item.status)}</p>` : "";
+  const doiValue = escapeHTML(item.doi || "TBD");
+  const doi = `<p class="calculator-meta"><strong>DOI:</strong> ${doiValue}</p>`;
   const publication = item.publication ? `<a class="btn btn-outline-secondary" href="${escapeHTML(item.publication)}">Publication</a>` : "";
   const disabledClass = item.url ? "" : " disabled";
 
@@ -34,6 +36,7 @@ function calculatorCard(item) {
       <h3>${title}</h3>
       ${description}
       ${status}
+      ${doi}
       <div class="card-actions">
         <a class="btn btn-primary${disabledClass}" href="${url}">Launch calculator</a>
         ${publication}
