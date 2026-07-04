@@ -3,20 +3,7 @@ title: "Predictive Calculators"
 toc: false
 ---
 
-This page lists web-based calculators developed by the lab. Each entry links to the live calculator and may include a short description or publication link.
-
-::: {.callout-note}
-## How to add a calculator
-
-Edit `data/calculators.json` in GitHub. Add a new item with at least a `title` and `url`. The calculator will automatically appear on this page after the site redeploys.
-:::
-
-```json
-{
-  "title": "New Calculator Title",
-  "url": "https://link-to-calculator.com"
-}
-```
+This page lists web-based calculators developed by the lab. Each entry links to the live calculator.
 
 <div id="calculator-list" class="calculator-grid" aria-live="polite">Loading calculators...</div>
 
@@ -67,7 +54,7 @@ async function loadCalculators() {
     }
     container.innerHTML = calculators.map(calculatorCard).join("");
   } catch (error) {
-    container.innerHTML = `<div class="callout-warning"><p>Calculator list could not be loaded. Check that <code>data/calculators.json</code> exists and contains valid JSON.</p></div>`;
+    container.innerHTML = `<div class="callout-warning"><p>Calculator list could not be loaded. Please refresh the page or try again later.</p></div>`;
     console.error(error);
   }
 }
