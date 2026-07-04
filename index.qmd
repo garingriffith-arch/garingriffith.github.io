@@ -1,55 +1,23 @@
 ---
 title: "Gendreau Lab Research Hub"
-subtitle: "Neurosurgical outcomes research, predictive modeling, and web-based calculators"
+subtitle: "Web-based predictive calculators for neurosurgical outcomes research"
 toc: false
 ---
 
 ::: {.hero-banner}
 ## Translating clinical data into usable neurosurgical research tools
 
-The Gendreau Lab develops neurosurgical outcomes research, predictive models, and web-based calculators using national registry and institutional data sources. This site serves as a central hub for the lab's publications, active projects, and deployed predictive tools.
+The Gendreau Lab develops web-based calculators that translate registry-scale clinical data into accessible research tools. This site serves as a central home for deployed predictive calculators and related model documentation.
 
-[View calculators](calculators.qmd){.btn .btn-primary} [View publications](publications.qmd){.btn .btn-outline-primary} [Contact](contact.qmd){.btn .btn-outline-secondary}
-:::
-
-::: {.feature-grid}
-::: {.feature-card}
-### Predictive calculators
-
-Interactive web-based tools are listed with links to their live Shiny/Posit deployments and associated manuscripts when available.
-:::
-
-::: {.feature-card}
-### Publications
-
-Peer-reviewed papers, abstracts, and selected manuscripts are organized by research area and updated as citations are finalized.
-:::
-
-::: {.feature-card}
-### Research focus
-
-Current work spans neuro-oncology, neurotrauma, registry-based epidemiology, clinical informatics, and web-based prediction tools.
-:::
-:::
-
-## Featured calculator
-
-::: {.tool-card .featured-tool}
-### Intracranial Chordoma Survival Calculator
-
-NCDB-based survival prediction tool for intracranial chordoma.
-
-[Launch calculator](https://garingriffith-chordoma-survival-calculator.share.connect.posit.cloud/){.btn .btn-primary}
+[View calculators](calculators.qmd){.btn .btn-primary} [Contact](contact.qmd){.btn .btn-outline-secondary}
 :::
 
 ## Research areas
 
 - Neuro-oncology outcomes and survival prediction
-- Traumatic brain injury prognosis and resource utilization
 - Registry-based neurosurgical epidemiology
 - Clinical informatics and model-assisted abstraction
 - Web-based calculator development and deployment
-- Vascular and perioperative outcomes research
 
 ## Research-use disclaimer
 
