@@ -1,67 +1,21 @@
 ---
-title: "Predictive Calculators"
+title: "Contact"
+toc: false
 ---
 
-This page links to web-based calculators developed by the lab. Each calculator should include the dataset, modeled outcome, model inputs, publication link, and a clear research-use disclaimer.
+For collaboration inquiries, manuscript questions, or calculator-related correspondence, contact Julian Gendreau.
 
-## Available tools
+::: {.contact-card}
+## Julian Gendreau
 
-::: {.tool-card}
-### Intracranial Chordoma Survival Calculator
-
-**Purpose:** Estimates survival after diagnosis of intracranial chordoma using diagnosis-time variables.  
-**Dataset:** National Cancer Database  
-**Model type:** Cox proportional hazards model with internal validation  
-**Inputs:** Age, sex, race, Hispanic ethnicity, insurance status, income quartile, Charlson-Deyo comorbidity score, and tumor size  
-**Status:** Available
-
-[Launch calculator](https://garingriffith-chordoma-survival-calculator.share.connect.posit.cloud){.btn .btn-primary}
-[Publication link pending](publications.qmd){.btn .btn-secondary}
+**Email:** [juliangendreau@gmail.com](mailto:juliangendreau@gmail.com)  
+**GitHub:** [github.com/JulianGendreau](https://github.com/JulianGendreau)  
+**X:** [@JulianGendreau](https://x.com/JulianGendreau)  
+**ResearchGate:** [Julian Gendreau](https://www.researchgate.net/profile/Julian-Gendreau)
 :::
 
-## In development / to be added
+## Location
 
-::: {.tool-card}
-### Grade II–III Intracranial Meningioma Survival Estimator
-
-**Dataset:** National Cancer Database  
-**Outcome:** Overall survival  
-**Status:** Calculator and finalized citation to be added
-:::
-
-::: {.tool-card}
-### TBI Discharge and Resource Utilization Calculator
-
-**Purpose:** Predicts discharge disposition and hospital resource utilization for adult traumatic brain injury patients.  
-**Dataset:** ACS TQIP 2020–2024  
-**Outcomes:** Discharge disposition, ICU admission, mechanical ventilation, hospital length of stay ≥20 days, ICU length of stay ≥8 days, and ventilator duration ≥8 days  
-**Status:** Calculator and finalized citation to be added
-:::
-
-::: {.tool-card}
-### Glioblastoma Survival Calculator
-
-**Dataset:** National Cancer Database  
-**Outcome:** Overall survival at clinically relevant timepoints  
-**Status:** Calculator and finalized citation to be added
-:::
-
-::: {.tool-card}
-### Oligodendroglioma Survival Calculator
-
-**Dataset:** National Cancer Database  
-**Outcome:** Overall survival  
-**Status:** Calculator and finalized citation to be added
-:::
-
-::: {.tool-card}
-### Astrocytoma Survival Calculator
-
-**Dataset:** National Cancer Database  
-**Outcome:** Overall survival  
-**Status:** Calculator and finalized citation to be added
-:::
-
-## Standard disclaimer
-
-These tools are intended for research and educational purposes only. Predictions are estimates derived from retrospective datasets and may not generalize to every patient, institution, or clinical scenario. They should not replace clinician judgment, multidisciplinary discussion, or individualized patient counseling.
+Oregon Health & Science University  
+Department of Neurological Surgery  
+Portland, Oregon
