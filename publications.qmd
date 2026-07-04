@@ -1,25 +1,43 @@
 ---
-title: "Projects"
+title: "Publications"
 ---
 
-## Active project areas
+This page will list peer-reviewed publications, conference abstracts, preprints, and selected manuscripts once citations are finalized.
 
-### Web-based predictive calculators
+## Predictive calculators and web-based tools
 
-The lab develops clinical prediction models and deploys them as interactive web-based calculators when appropriate. Current areas include intracranial tumors, traumatic brain injury, and registry-based neurosurgical outcomes.
+::: {.publication}
+**Intracranial Chordoma Predictive Calculator**  
+*Status:* Add finalized journal citation, DOI, PubMed link, and calculator link.
+:::
 
-### Neuro-oncology outcomes research
+::: {.publication}
+**Grade II–III Intracranial Meningioma Survival Estimator**  
+*Status:* Add finalized citation and calculator link.
+:::
 
-Projects use national and institutional datasets to study treatment patterns, survival, disparities, and prediction in brain and spine tumors.
+::: {.publication}
+**Traumatic Brain Injury Discharge and Resource Utilization Calculator**  
+*Status:* Add finalized citation and calculator link.
+:::
 
-### Neurotrauma and resource utilization
+## Research areas
 
-Projects use ACS TQIP and related trauma datasets to study traumatic brain injury outcomes, discharge needs, ICU utilization, mechanical ventilation, and complications.
+- Neuro-oncology outcomes and survival prediction
+- Registry-based neurosurgical outcomes research
+- Neurotrauma prognosis and resource utilization
+- Vascular and perioperative outcomes
+- Web-based calculator development
 
-### Clinical informatics and registry abstraction
+## Citation template
 
-Projects explore scalable, reproducible workflows for extracting structured clinical variables and validating model-assisted abstraction.
+Use this format for finalized entries:
 
-### Vascular and perioperative outcomes
-
-Projects evaluate vascular access, genetic aortopathy, perioperative complications, and quality improvement opportunities.
+```markdown
+::: {.publication}
+**Title**  
+Authors.  
+*Journal.* Year;Volume(Issue):Pages. DOI.  
+[PubMed](#) | [Manuscript](#) | [Calculator](#)
+:::
+```
