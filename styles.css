@@ -1,28 +1,143 @@
----
-title: "Resources"
----
+:root {
+  --gendreau-navy: #172033;
+  --gendreau-blue: #2f6f9f;
+  --gendreau-accent: #8fb7d6;
+  --gendreau-soft: #f5f8fb;
+  --gendreau-border: #d9e2ec;
+}
 
-## Code and repositories
+body {
+  letter-spacing: -0.01em;
+}
 
-Public repositories can be listed here once the lab decides which app code, documentation, and derived materials are appropriate to share.
+.navbar {
+  box-shadow: 0 1px 12px rgba(15, 23, 42, 0.08);
+}
 
-- Website repository: <https://github.com/garingriffith-arch/garingriffith.github.io>
-- Calculator repositories: add links as appropriate
+.navbar-title {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
 
-## Data-use reminder
+.hero-banner {
+  padding: 3rem;
+  border-radius: 1.35rem;
+  background:
+    radial-gradient(circle at top right, rgba(47, 111, 159, 0.20), transparent 28rem),
+    linear-gradient(135deg, #f8fbfd 0%, #eef5fa 100%);
+  border: 1px solid var(--gendreau-border);
+  margin-bottom: 2rem;
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.08);
+}
 
-National registry datasets often have data-use restrictions. Public repositories should not include restricted datasets such as NCDB, ACS TQIP, SEER restricted-use files, TriNetX exports, or institutional patient-level data.
+.hero-banner h2 {
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+  margin-bottom: 1rem;
+  color: var(--gendreau-navy);
+}
 
-Public repositories should include only app code, documentation, synthetic examples, and model objects that are permitted to be shared under the relevant data-use agreement.
+.hero-banner p {
+  font-size: 1.1rem;
+  max-width: 58rem;
+}
 
-## App deployment checklist
+.feature-grid,
+.calculator-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.15rem;
+  margin: 1.5rem 0 2rem 0;
+}
 
-For each Shiny app repository, include:
+.feature-card,
+.tool-card,
+.publication,
+.contact-card {
+  border: 1px solid var(--gendreau-border);
+  border-radius: 1rem;
+  padding: 1.35rem;
+  background: #ffffff;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.06);
+}
 
-- `app.R`
-- `manifest.json`
-- `README.md`
-- `www/` assets, if needed
-- `data/` model objects, only if shareable
-- clear research-use disclaimer
-- citation to the manuscript, preprint, or abstract
+.feature-card h3,
+.tool-card h3,
+.publication h3,
+.contact-card h2 {
+  margin-top: 0;
+}
+
+.feature-card {
+  min-height: 11rem;
+}
+
+.featured-tool {
+  border-left: 0.35rem solid var(--gendreau-blue);
+}
+
+.calculator-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 14rem;
+}
+
+.calculator-meta {
+  color: #52616f;
+  margin-bottom: 1rem;
+}
+
+.card-actions {
+  margin-top: auto;
+}
+
+.btn {
+  border-radius: 999px;
+  padding: 0.5rem 0.95rem;
+  margin-right: 0.35rem;
+  margin-top: 0.4rem;
+  font-weight: 650;
+}
+
+.btn-primary {
+  background-color: var(--gendreau-blue);
+  border-color: var(--gendreau-blue);
+}
+
+.btn-primary:hover {
+  filter: brightness(0.92);
+}
+
+.callout-note {
+  border-radius: 1rem;
+}
+
+.quarto-title-block .title {
+  letter-spacing: -0.04em;
+}
+
+.quarto-dark .hero-banner {
+  background:
+    radial-gradient(circle at top right, rgba(143, 183, 214, 0.20), transparent 28rem),
+    linear-gradient(135deg, #111827 0%, #1f2937 100%);
+  border-color: #334155;
+}
+
+.quarto-dark .hero-banner h2 {
+  color: #f8fafc;
+}
+
+.quarto-dark .feature-card,
+.quarto-dark .tool-card,
+.quarto-dark .publication,
+.quarto-dark .contact-card {
+  background: #111827;
+  border-color: #334155;
+  box-shadow: none;
+}
+
+.quarto-dark .calculator-meta {
+  color: #cbd5e1;
+}
