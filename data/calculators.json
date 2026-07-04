@@ -3,36 +3,42 @@
     "title": "GBM Survival Calculator",
     "url": "https://8hwydh-garin0griffith.shinyapps.io/gbm-survival-calculator/",
     "description": "Web-based survival calculator for glioblastoma outcomes.",
-    "status": "Available"
+    "status": "Available",
+    "doi": "TBD"
   },
   {
     "title": "Oligodendroglioma Survival Calculator",
     "url": "https://019f1af0-adee-b243-275f-80458c45917c.share.connect.posit.cloud",
     "description": "Web-based survival calculator for oligodendroglioma outcomes.",
-    "status": "Available"
+    "status": "Available",
+    "doi": "TBD"
   },
   {
     "title": "Astrocytoma Survival Calculator",
     "url": "https://019f203d-ce03-a78f-1e05-02da82b13aaf.share.connect.posit.cloud",
     "description": "Web-based survival calculator for astrocytoma outcomes.",
-    "status": "Available"
+    "status": "Available",
+    "doi": "TBD"
   },
   {
     "title": "TBI Utilization Calculator",
     "url": "https://019ec292-3de8-1ed0-8539-9735b5adf494.share.connect.posit.cloud/",
     "description": "Web-based calculator for traumatic brain injury resource utilization outcomes.",
-    "status": "Available"
+    "status": "Available",
+    "doi": "TBD"
   },
   {
     "title": "Chordoma Survival Calculator",
     "url": "https://019d664d-e8fd-de01-a9be-752c9cc0f73e.share.connect.posit.cloud/",
     "description": "Web-based survival calculator for chordoma outcomes.",
-    "status": "Available"
+    "status": "Available",
+    "doi": "TBD"
   },
   {
     "title": "High-Grade Meningioma Survival Calculator",
     "url": "https://019d02d0-e334-2c7e-dd4f-c8f3c99b76ac.share.connect.posit.cloud",
     "description": "Web-based survival calculator for high-grade meningioma outcomes.",
-    "status": "Available"
+    "status": "Available",
+    "doi": "TBD"
   }
 ]
