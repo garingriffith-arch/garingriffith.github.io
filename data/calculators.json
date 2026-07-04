@@ -4,5 +4,41 @@
     "url": "https://garingriffith-chordoma-survival-calculator.share.connect.posit.cloud/",
     "description": "NCDB-based survival prediction tool for intracranial chordoma.",
     "status": "Available"
+  },
+  {
+    "title": "Glioblastoma Survival Calculator",
+    "url": "https://8hwydh-garin0griffith.shinyapps.io/gbm-survival-calculator/",
+    "description": "Web-based survival calculator for glioblastoma outcomes.",
+    "status": "Available"
+  },
+  {
+    "title": "Predictive Calculator 1",
+    "url": "https://019f1af0-adee-b243-275f-80458c45917c.share.connect.posit.cloud",
+    "description": "Web-based predictive calculator.",
+    "status": "Available"
+  },
+  {
+    "title": "Predictive Calculator 2",
+    "url": "https://019f203d-ce03-a78f-1e05-02da82b13aaf.share.connect.posit.cloud",
+    "description": "Web-based predictive calculator.",
+    "status": "Available"
+  },
+  {
+    "title": "Predictive Calculator 3",
+    "url": "https://019ec292-3de8-1ed0-8539-9735b5adf494.share.connect.posit.cloud/",
+    "description": "Web-based predictive calculator.",
+    "status": "Available"
+  },
+  {
+    "title": "Predictive Calculator 4",
+    "url": "https://019d664d-e8fd-de01-a9be-752c9cc0f73e.share.connect.posit.cloud/",
+    "description": "Web-based predictive calculator.",
+    "status": "Available"
+  },
+  {
+    "title": "Predictive Calculator 5",
+    "url": "https://019d02d0-e334-2c7e-dd4f-c8f3c99b76ac.share.connect.posit.cloud",
+    "description": "Web-based predictive calculator.",
+    "status": "Available"
   }
 ]
